@@ -466,6 +466,21 @@ em { font-style: normal; }
 .project-tagline {
   font-size: 1.6rem; font-weight: 800; letter-spacing: -0.03em;
 }
+.project-link {
+  display: inline-flex; align-items: center; gap: 10px;
+  margin-top: 28px;
+  padding: 12px 0;
+  font: 9px var(--mono); letter-spacing: 0.14em;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border);
+  transition: color 0.25s ease, border-color 0.25s ease, gap 0.25s ease;
+}
+.project-link:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  gap: 16px;
+}
 
 /* Project Visual */
 .project-visual {
@@ -1403,6 +1418,7 @@ footer {
           </h2>
           <div class="project-sub reveal">UNDERGROUND FASHION EXPERIENCE</div>
           <div class="project-tagline reveal">WEAR THE UNKNOWN.</div>
+          <a class="project-link reveal" href="https://josesouzapereira.github.io/VOIDEN/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o projeto VOIDEN em uma nova aba">VIEW PROJECT <span aria-hidden="true">↗</span></a>
         </div>
         <div class="project-right reveal">
           <div class="project-visual p-voiden">
